@@ -1,0 +1,69 @@
+[
+    {
+      "id": "1",
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Left-Arm Spin",
+      "price": 18000,
+      "rating": "9.7/10",
+      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "role": "Bowler",
+      "battingStyle": "Right-Hand-Bat",
+      "bowlingStyle": "Leg Spin",
+      "price": 19000,
+      "rating": "9.6/10",
+      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Hardik Pandya",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Right-Hand-Bat",
+      "bowlingStyle": "Fast-Medium",
+      "price": 17500,
+      "rating": "9.5/10",
+      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+    },
+    {
+      "id": "4",
+      "name": "David Warner",
+      "country": "Australia",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Leg Spin",
+      "price": 17000,
+      "rating": "9.4/10",
+      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Ravindra Jadeja",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Left-Arm Spin",
+      "price": 18500,
+      "rating": "9.6/10",
+      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Mitchell Santner",
+      "country": "New Zealand",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Left-Arm Spin",
+      "price": 16500,
+      "rating": "9.3/10",
+      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+    }
+  ]
+  
