@@ -5,8 +5,10 @@ import Navbar from './components/Navbar/Navbar'
 import Toggle from './components/Toggle/Toggle'
 import ChoosePlayers from './components/ChoosePlayers/ChoosePlayers'
 import SelectPlayers from './components/SelectPlayers/SelectPlayers'
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
                 if (player.price <= balance) {
                     setSelectPlayers([...selectPlayers, player]);
                     setBalance(balance - player.price)
-                    toast.success("You have added this player successfully");
+                    toast.success(`You have added ${player.name} successfully`);
                 } else {
                     toast.error("Insufficient funds. Click the button above to claim free money!");
                 }
@@ -43,15 +45,13 @@ function App() {
         } else {
             toast.error("This player has already been added.");
         }
-
     };
 
     const removeSelect = (playerDelete) => {
-        console.log(playerDelete)
         const updatedSelectPlayers = selectPlayers.filter(player => player.id !== playerDelete.id)
         setSelectPlayers(updatedSelectPlayers)
         setBalance(balance + playerDelete.price)
-        toast.info('Player removed successfully.', { position: "top-right" })
+        toast.info(`You have removed  -${playerDelete.name} successfully.`, { position: "top-right" })
     }
     const addMorePlayers = () => {
         setIsActive(true)

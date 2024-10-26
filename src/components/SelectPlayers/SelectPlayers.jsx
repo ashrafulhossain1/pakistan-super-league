@@ -2,6 +2,7 @@ import SelectPlayer from "./SelectPlayer";
 import PropTypes from 'prop-types';
 
 const SelectPlayers = ({ selectPlayers, removeSelect, isActive, addMorePlayers }) => {
+    
     return (
         <div className="flex flex-col gap-3 md:gap-6">
             {

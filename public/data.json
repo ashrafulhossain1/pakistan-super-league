@@ -30,7 +30,7 @@
       "bowlingStyle": "Fast-Medium",
       "price": 17500,
       "rating": "9.5/10",
-      "imageUrl": "https://i.ibb.co.com/8xCHDFy/IMG-20241026-165601.jpg"
+      "imageUrl": "https://i.ibb.co.com/8z2sz7r/haddi.jpg"
     },
     {
       "id": "4",
@@ -97,6 +97,29 @@
       "price": 14000,
       "rating": "8.8/10",
       "imageUrl": "https://i.ibb.co.com/GQngZDL/tamim.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Mashrafe Mortaza",
+      "country": "Bangladesh",
+      "role": "Bowler",
+      "battingStyle": "Right-Hand-Bat",
+      "bowlingStyle": "Right-Arm Medium Fast",
+      "price": 12000,
+      "rating": "8.5/10",
+      "imageUrl": "https://i.ibb.co.com/Km7sxzd/mash.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "bowlingStyle": "Right-Arm Off Spin",
+      "price": 19000,
+      "rating": "9.4/10",
+      "imageUrl": "https://i.ibb.co.com/bmjZxBv/Screenshot-56.jpg"
     }
+    
   ]
   

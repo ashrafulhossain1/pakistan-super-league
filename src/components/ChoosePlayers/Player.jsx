@@ -13,7 +13,7 @@ const Player = ({ player, handleChoosePlayer }) => {
                     <i className="fa-solid fa-user text-2xl"></i>
                     <h2 className="font-bold">{name}</h2>
                 </div>
-                <div className='flex items-center justify-between pb-4 border-b-2 text-xl'>
+                <div className='flex items-center justify-between pb-4 border-b-2 text-sm md:text-base'>
                     <div className='flex gap-3 items-center text-gray-400'>
                         <i className="fa-solid fa-flag"></i>
                         <span>{country}</span>
@@ -32,7 +32,7 @@ const Player = ({ player, handleChoosePlayer }) => {
                     <p className='font-bold'>$ {price}</p>
                     <button onClick={() => {
                         handleChoosePlayer(player)
-                    }} className='btn btn-sm bg-white'>Choose Player</button>
+                    }} className='btn btn-sm bg-white border border-lime-500 hover:bg-black hover:text-white'>Choose Player</button>
                 </div>
             </div>
         </div>
