@@ -13,7 +13,7 @@ const Toggle = ({ handleActiveBtn, isActive, selectPlayers }) => {
                 >Available</button>
                 <button onClick={() => handleActiveBtn(false)} className=
                     {`${isActive ? "py-3 px-4 border text-base md:text-lg font-medium rounded-tr-lg rounded-br-lg" : "bg-yellow-400 py-3 px-4 border text-base md:text-lg font-medium rounded-tr-lg rounded-br-lg"}`}
-                >Selected ({selectPlayers.length})</button>
+                >Selected({selectPlayers.length})</button>
             </div>
         </div>
     );
