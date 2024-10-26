@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Player from "./Player";
+import PropTypes from 'prop-types';
 
 const ChoosePlayers = ({handleChoosePlayer}) => {
     const [players, setPlayers]=useState([])
@@ -23,5 +24,7 @@ const ChoosePlayers = ({handleChoosePlayer}) => {
         </div>
     );
 };
-
+ChoosePlayers.propTypes ={
+    handleChoosePlayer: PropTypes.func
+}
 export default ChoosePlayers;

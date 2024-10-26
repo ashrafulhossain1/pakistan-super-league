@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
 const SelectPlayer = ({ player,removeSelect }) => {
     const { name, role, price, imageUrl } = player;
+    
     return (
         <div className="p-2 md:p-4 flex justify-between items-center border border-gray-300 rounded-lg">
             <div className="flex gap-4 items-center">
@@ -7,7 +9,7 @@ const SelectPlayer = ({ player,removeSelect }) => {
                 <div className="">
                     <h4 className="text-lg md:text-lg font-semibold">{name}</h4>
                     <h4 className="text-sm md:text-base text-gray-600">{role}</h4>
-                    <h4 className="text-sm md:text-base text-gray-600">{price}</h4>
+                    <h4 className="text-sm md:text-base text-gray-600"> Price: {price}</h4>
                     
                 </div>
             </div>
@@ -18,5 +20,10 @@ const SelectPlayer = ({ player,removeSelect }) => {
         </div>
     );
 };
+SelectPlayer.propTypes={
+    player: PropTypes.object,
+    removeSelect: PropTypes.func
+
+}
 
 export default SelectPlayer;

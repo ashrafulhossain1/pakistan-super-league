@@ -13,15 +13,10 @@ function App() {
     const [balance, setBalance] = useState(0)
     const [isActive, setIsActive] = useState(true)
     const [selectPlayers, setSelectPlayers] = useState([])
-    const [free, setFree] = useState(false)
-
-
 
     const handleFreeClaim = () => {
         setBalance(balance + 500000)
         toast.success('Free money claim Successfully')
-        setFree(true)
-
     }
 
     const handleActiveBtn = (value) => [
@@ -38,15 +33,15 @@ function App() {
                 if (player.price <= balance) {
                     setSelectPlayers([...selectPlayers, player]);
                     setBalance(balance - player.price)
-                    toast.success("added Successfully");
+                    toast.success("You have added this player successfully");
                 } else {
-                    toast.error("Insufficient fund");
+                    toast.error("Insufficient funds. Click the button above to claim free money!");
                 }
             } else {
-                toast.error("Limit exceeded");
+                toast.error("Limit exceeded. You cannot add more than 6 players.");
             }
         } else {
-            toast.error("Already added");
+            toast.error("This player has already been added.");
         }
 
     };
@@ -56,13 +51,11 @@ function App() {
         const updatedSelectPlayers = selectPlayers.filter(player => player.id !== playerDelete.id)
         setSelectPlayers(updatedSelectPlayers)
         setBalance(balance + playerDelete.price)
-        toast.info('Delete successfully', { position: "top-right" })
+        toast.info('Player removed successfully.', { position: "top-right" })
     }
     const addMorePlayers = () => {
         setIsActive(true)
     }
-
-    console.log(selectPlayers)
 
     return (
         <>
@@ -80,17 +73,6 @@ function App() {
                     selectPlayers={selectPlayers}
                 ></Toggle>
 
-
-                {/* <ChoosePlayers
-          handleChoosePlayer={handleChoosePlayer}
-        ></ChoosePlayers> */}
-
-                {/* <SelectPlayers
-          selectPlayers={selectPlayers}
-          removeSelect={removeSelect}
-
-        ></SelectPlayers> */}
-
                 <div className='mb-44'>
                     {isActive ?
                         <ChoosePlayers
@@ -107,7 +89,7 @@ function App() {
                 </div>
             </main>
             <Footer></Footer>
-            <ToastContainer position='top-center' autoClose={1500} />
+            <ToastContainer position='top-center' autoClose={3000} />
         </>
     )
 }

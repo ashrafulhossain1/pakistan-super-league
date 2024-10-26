@@ -19,7 +19,7 @@
       "bowlingStyle": "Leg Spin",
       "price": 19000,
       "rating": "9.6/10",
-      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+      "imageUrl": "https://i.ibb.co.com/WtpQ7q2/rashid.jpg"
     },
     {
       "id": "3",
@@ -30,7 +30,7 @@
       "bowlingStyle": "Fast-Medium",
       "price": 17500,
       "rating": "9.5/10",
-      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+      "imageUrl": "https://i.ibb.co.com/8xCHDFy/IMG-20241026-165601.jpg"
     },
     {
       "id": "4",
@@ -41,7 +41,7 @@
       "bowlingStyle": "Leg Spin",
       "price": 17000,
       "rating": "9.4/10",
-      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+      "imageUrl": "https://i.ibb.co.com/QYdxc9V/IMG-20241026-170048.jpg"
     },
     {
       "id": "5",
@@ -52,7 +52,7 @@
       "bowlingStyle": "Left-Arm Spin",
       "price": 18500,
       "rating": "9.6/10",
-      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+      "imageUrl": "https://i.ibb.co.com/ck9rNZ5/IMG-20241026-171036.jpg"
     },
     {
       "id": "6",
@@ -63,7 +63,40 @@
       "bowlingStyle": "Left-Arm Spin",
       "price": 16500,
       "rating": "9.3/10",
-      "imageUrl": "https://i.ibb.co.com/W0cM8Mz/gettyimages-1713363183-612x612.jpg"
+      "imageUrl": "https://i.ibb.co.com/gTP6Cm0/IMG-20241026-171017.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Suresh Raina",
+      "country": "India",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Right-Arm Off Spin",
+      "price": 15000,
+      "rating": "8.5/10",
+      "imageUrl": "https://i.ibb.co.com/hy0mP1V/suresh-rana.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Ben Stokes",
+      "country": "England",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Right-Arm Fast",
+      "price": 20000,
+      "rating": "9.3/10",
+      "imageUrl": "https://i.ibb.co.com/B6sBj8C/stokes.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "bowlingStyle": "Right-Arm Off Spin",
+      "price": 14000,
+      "rating": "8.8/10",
+      "imageUrl": "https://i.ibb.co.com/GQngZDL/tamim.jpg"
     }
   ]
   

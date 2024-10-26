@@ -1,5 +1,6 @@
-const Player = ({ player,handleChoosePlayer }) => {
-    const { id, name, country, role, battingStyle, bowlingStyle, price, rating, imageUrl } = player;
+import PropTypes from 'prop-types';
+const Player = ({ player, handleChoosePlayer }) => {
+    const { name, country, role, battingStyle, bowlingStyle, price, rating, imageUrl } = player;
     return (
         <div className="card-compact border p-3 md:p-4 rounded-2xl">
             <figure className='h-60 '>
@@ -21,7 +22,7 @@ const Player = ({ player,handleChoosePlayer }) => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <p className='font-bold'>Rating</p>
-                    <span>8/10</span>
+                    <span>{rating}</span>
                 </div>
                 <div className='font-bold flex justify-between'>
                     <p>{battingStyle}</p>
@@ -29,7 +30,7 @@ const Player = ({ player,handleChoosePlayer }) => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <p className='font-bold'>$ {price}</p>
-                    <button onClick={()=>{
+                    <button onClick={() => {
                         handleChoosePlayer(player)
                     }} className='btn btn-sm bg-white'>Choose Player</button>
                 </div>
@@ -38,4 +39,8 @@ const Player = ({ player,handleChoosePlayer }) => {
     );
 };
 
+Player.propTypes = {
+    handleChoosePlayer: PropTypes.func,
+    player: PropTypes.object
+}
 export default Player;
