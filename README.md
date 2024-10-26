@@ -1,4 +1,4 @@
-# IPL Website: Your Ultimate Cricket Hub
+# PSL Website: Your Ultimate Cricket Hub
 
 
 ## Description: 
