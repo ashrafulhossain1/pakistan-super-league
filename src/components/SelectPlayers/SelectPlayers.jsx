@@ -17,7 +17,7 @@ const SelectPlayers = ({ selectPlayers, removeSelect ,isActive,addMorePlayers}) 
             {
                 isActive? "" : <div className="flex">
                 <div className='p-1 border rounded-2xl border-lime-500'>
-                    <button onClick={addMorePlayers} className="border-none btn text-black bg-lime-400 hover:bg-lime-500 font-semibold rounded-xl">
+                    <button onClick={addMorePlayers} className="border-none btn text-black text-xs md:text-base bg-lime-400 hover:bg-lime-500 font-semibold rounded-xl">
                         Add more Players
                     </button>
                 </div>

@@ -12,7 +12,7 @@ const SelectPlayer = ({ player,removeSelect }) => {
                 </div>
             </div>
             <div>
-                <button onClick={()=>removeSelect(player)}><i className="fa-solid fa-trash-can text-3xl text-red-600"></i></button>
+                <button onClick={()=>removeSelect(player)}><i className="fa-solid fa-trash-can text-xl md:text-3xl text-red-600"> </i></button>
             </div>
 
         </div>

@@ -10,8 +10,8 @@ const Banner = ({handleFreeClaim}) => {
                 <img className='w-32  h-24' src={logoImage} alt="crickets material images"/>
                 <h1 className="text-xl md:text-3xl lg:text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <p className='text-base md:text-xl xl:text-2xl'>Beyond Boundaries Beyond Limits</p>
-                <div className='p-1 border rounded-2xl border-lime-500'>
-                    <button onClick={handleFreeClaim} className="border-none btn text-black bg-lime-400 hover:bg-lime-500 font-semibold rounded-xl">
+                <div className='p-0.5 border rounded-2xl border-lime-500'>
+                    <button onClick={handleFreeClaim} className="border-none text-xs p-2 md:p-4 md:text-base text-black bg-lime-400 hover:bg-lime-500 font-semibold rounded-[14px]">
                         Claim Free Credit
                         </button>
                 </div>
