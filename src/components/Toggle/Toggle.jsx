@@ -9,10 +9,10 @@ const Toggle = ({ handleActiveBtn, isActive, selectPlayers }) => {
             </h4>
             <div>
                 <button onClick={() => handleActiveBtn(true)} className=
-                    {`${isActive ? "bg-yellow-400 py-3 px-4 border text-xs md:text-lg font-medium rounded-tl-lg  rounded-bl-lg " : "py-3 px-4 border text-sm md:text-lg font-medium rounded-tl-lg  rounded-bl-lg"}`}
+                    {`${isActive ? "bg-yellow-400 py-3 px-4 border text-base md:text-lg font-medium rounded-tl-lg  rounded-bl-lg " : "py-3 px-4 border text-base md:text-lg font-medium rounded-tl-lg  rounded-bl-lg"}`}
                 >Available</button>
                 <button onClick={() => handleActiveBtn(false)} className=
-                    {`${isActive ? "py-3 px-4 border text-xs md:text-lg font-medium rounded-tr-lg rounded-br-lg" : "bg-yellow-400 py-3 px-4 border text-sm md:text-lg font-medium rounded-tr-lg rounded-br-lg"}`}
+                    {`${isActive ? "py-3 px-4 border text-base md:text-lg font-medium rounded-tr-lg rounded-br-lg" : "bg-yellow-400 py-3 px-4 border text-base md:text-lg font-medium rounded-tr-lg rounded-br-lg"}`}
                 >Selected ({selectPlayers.length})</button>
             </div>
         </div>
