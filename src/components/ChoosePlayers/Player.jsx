@@ -1,11 +1,9 @@
-import React from 'react';
-
-const Player = ({ player }) => {
+const Player = ({ player,handleChoosePlayer }) => {
     const { id, name, country, role, battingStyle, bowlingStyle, price, rating, imageUrl } = player;
     return (
-        <div className="card card-compact border p-3 md:p-4 rounded-2xl">
-            <figure className='w-full h-60'>
-                <img className='h-60 object-cover'
+        <div className="card-compact border p-3 md:p-4 rounded-2xl">
+            <figure className='h-60 '>
+                <img className='object-cover h-full w-full rounded-xl'
                     src={imageUrl}
                     alt="player Image" />
             </figure>
@@ -15,7 +13,7 @@ const Player = ({ player }) => {
                     <h2 className="font-bold">{name}</h2>
                 </div>
                 <div className='flex items-center justify-between pb-4 border-b-2 text-xl'>
-                    <div className='flex gap-3 items-center'>
+                    <div className='flex gap-3 items-center text-gray-400'>
                         <i className="fa-solid fa-flag"></i>
                         <span>{country}</span>
                     </div>
@@ -31,7 +29,9 @@ const Player = ({ player }) => {
                 </div>
                 <div className='flex justify-between items-center'>
                     <p className='font-bold'>$ {price}</p>
-                    <button className='btn btn-sm bg-white'>Choose Player</button>
+                    <button onClick={()=>{
+                        handleChoosePlayer(player)
+                    }} className='btn btn-sm bg-white'>Choose Player</button>
                 </div>
             </div>
         </div>

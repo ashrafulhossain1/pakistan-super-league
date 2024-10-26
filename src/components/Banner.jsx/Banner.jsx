@@ -3,7 +3,7 @@ import logoImage from '../../assets/images/banner-main.png'
 const Banner = ({handleFreeClaim}) => {
     return (
         <div
-            className="hidden bg-cover bg-black bg-opacity-90 bg-no-repeat rounded-3xl h-auto py-8 md:py-14 xl:py-24 my-3 md:my-7 border" style={{ backgroundImage: `url(${bannerImage})` }}>
+            className="bg-cover bg-black bg-opacity-90 bg-no-repeat rounded-3xl h-auto py-8 md:py-14 xl:py-24 my-3 md:my-7 border" style={{ backgroundImage: `url(${bannerImage})` }}>
             <div className='bg-black'></div>
             <div
              className="text-white w-11/12 md:w-8/12 text-center mx-auto  flex flex-col items-center justify-center space-y-2 md:space-y-6">
