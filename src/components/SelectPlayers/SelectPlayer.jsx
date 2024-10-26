@@ -5,7 +5,7 @@ const SelectPlayer = ({ player,removeSelect }) => {
             <div className="flex gap-4 items-center">
                 <img className="h-20 w-20 object-cover rounded-lg" src={imageUrl} alt="" />
                 <div className="">
-                    <h4 className="text-lg md:text-xl font-semibold">{name}</h4>
+                    <h4 className="text-lg md:text-lg font-semibold">{name}</h4>
                     <h4 className="text-sm md:text-base text-gray-600">{role}</h4>
                     <h4 className="text-sm md:text-base text-gray-600">{price}</h4>
                     
